@@ -1,0 +1,11 @@
+customer_id,first_name,last_name,email,phone,city,country,signup_date,segment
+1,Rahul,Sharma,rahul.sharma@example.com,9876543210,Mumbai,India,10-01-2023,Regular
+2,Anita,Verma,anita.verma@example.com,9876543211,Pune,India,05-02-2023,Premium
+3,Vikram,Patel,vikram.patel@example.com,9876543212,Bengaluru,India,20-02-2023,Regular
+4,Neha,Rao,neha.rao@example.com,9876543213,Hyderabad,India,01-03-2023,Regular
+5,Arjun,Mehta,arjun.mehta@example.com,9876543214,Delhi,India,15-03-2023,Premium
+6,Pooja,Iyer,pooja.iyer@example.com,9876543215,Chennai,India,01-04-2023,Regular
+7,Karan,Joshi,karan.joshi@example.com,9876543216,Pune,India,10-04-2023,Regular
+8,Simran,Kaur,simran.kaur@example.com,9876543217,Mumbai,India,20-04-2023,Premium
+9,Amit,Gupta,amit.gupta@example.com,9876543218,Noida,India,01-05-2023,Regular
+10,Sneha,Desai,sneha.desai@example.com,9876543219,Pune,India,10-05-2023,Premium

@@ -1,0 +1,11 @@
+product_id,product_name,category,unit_price,cost_price,active_flag
+101,Wireless Mouse,Electronics,599,350,1
+102,Mechanical Keyboard,Electronics,2499,1600,1
+103,Laptop Stand,Accessories,999,600,1
+104,USB-C Hub,Accessories,1499,900,1
+105,Noise Cancelling Headphones,Electronics,3999,2600,1
+106,Gaming Chair,Furniture,8999,6000,1
+107,Office Desk,Furniture,6999,4500,1
+108,Webcam,Electronics,1299,800,0
+109,Monitor 24 Inch,Electronics,8999,6200,1
+110,Laptop Bag,Accessories,1299,700,1
