@@ -4,16 +4,16 @@ from pyspark.sql import functions as f
 
 
 def main():
-    # casting the columns to suitable data types
-    path = 'sourceData/rawFiles'
+    inputPath = 'sourceData/rawFiles'
+    outputPath = 'targetData'
     conf = SparkConf().set('spark.driver.memory', '2g').set('spark.executor.memory', '2g')
     spark = SparkSession.builder.appName('Retail Project').config(conf=conf).getOrCreate()
-    customer_df = spark.read.option('header', 'true').csv(f'{path}/customers.csv')
+    customer_df = spark.read.option('header', 'true').csv(f'{inputPath}/customers.csv')
     customer_df = customer_df.withColumn('customer_id', f.col('customer_id').cast('int'))
     customer_df = customer_df.where(f.col('customer_id').isNotNull())
     customer_df.show()
     # customer_df.printSchema()
-    order_df = spark.read.option('header', 'true').csv(f'{path}/orders.csv')
+    order_df = spark.read.option('header', 'true').csv(f'{inputPath}/orders.csv')
     order_df = (order_df.withColumn('order_id', f.col('order_id').cast('int'))
                 .withColumn('customer_id', f.col('customer_id').cast('int'))
                 .withColumn('product_id', f.col('product_id').cast('int'))
@@ -22,7 +22,7 @@ def main():
     order_df = order_df.where((f.col('quantity') >= 0) & (f.col('order_date').isNotNull()))
     order_df.show()
     # order_df.printSchema()
-    product_df = spark.read.option('header', 'true').csv(f'{path}/products.csv')
+    product_df = spark.read.option('header', 'true').csv(f'{inputPath}/products.csv')
     product_df = (product_df.withColumn('product_id', f.col('product_id').cast('int'))
                   .withColumn('unit_price', f.col('unit_price').cast('int'))
                   .withColumn('cost_price', f.col('cost_price').cast('int'))
@@ -91,6 +91,14 @@ def main():
         f.col('op.discount_flag')
     )
     fact_table.show()
+    # create csv output files from data frames out of all
+    order_df.toPandas().to_csv(f'{outputPath}/order.csv', index=False, header=True)
+    product_df.toPandas().to_csv(f'{outputPath}/product.csv', index=False, header=True)
+    customer_df.toPandas().to_csv(f'{outputPath}/customer.csv', index=False, header=True)
+    orderWithProductInfo.toPandas().to_csv(f'{outputPath}/orderWithProductInfo.csv', index=False, header=True)
+    orderWithCustomerInfo.toPandas().to_csv(f'{outputPath}/orderWithCustomerInfo.csv', index=False, header=True)
+    fact_table.toPandas().to_csv(f'{outputPath}/factDataTable.csv', index=False, header=True)
+    print('All the data has been saved to target directory')
 
 
 if __name__ == '__main__':

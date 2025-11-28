@@ -1,0 +1,47 @@
+order_id,order_date,customer_id,city,segment,product_id,product_name,category,quantity,selling_price,discount_flag
+1001,01-04-2023,1,Mumbai,Regular,101,Wireless Mouse,Electronics,3,599,False
+1001,01-04-2023,1,Mumbai,Regular,101,Wireless Mouse,Electronics,1,599,False
+1001,01-04-2023,1,Mumbai,Regular,101,Wireless Mouse,Electronics,2,599,True
+1001,01-04-2023,1,Mumbai,Regular,101,Wireless Mouse,Electronics,1,599,False
+1002,02-04-2023,2,Pune,Premium,102,Mechanical Keyboard,Electronics,1,2499,True
+1002,02-04-2023,2,Pune,Premium,102,Mechanical Keyboard,Electronics,1,2499,False
+1003,02-04-2023,2,Pune,Premium,103,Laptop Stand,Accessories,2,999,False
+1003,02-04-2023,2,Pune,Premium,103,Laptop Stand,Accessories,1,999,False
+1003,02-04-2023,2,Pune,Premium,103,Laptop Stand,Accessories,2,999,False
+1004,03-04-2023,3,Bengaluru,Regular,105,Noise Cancelling Headphones,Electronics,1,3999,False
+1004,03-04-2023,3,Bengaluru,Regular,105,Noise Cancelling Headphones,Electronics,1,3999,True
+1004,03-04-2023,3,Bengaluru,Regular,105,Noise Cancelling Headphones,Electronics,1,3999,False
+1005,05-04-2023,4,Hyderabad,Regular,101,Wireless Mouse,Electronics,3,579,False
+1005,05-04-2023,4,Hyderabad,Regular,101,Wireless Mouse,Electronics,1,579,False
+1005,05-04-2023,4,Hyderabad,Regular,101,Wireless Mouse,Electronics,2,579,True
+1005,05-04-2023,4,Hyderabad,Regular,101,Wireless Mouse,Electronics,1,579,False
+1006,06-04-2023,5,Delhi,Premium,106,Gaming Chair,Furniture,1,8999,False
+1007,07-04-2023,1,Mumbai,Regular,104,USB-C Hub,Accessories,1,1499,False
+1009,11-04-2023,7,Pune,Regular,103,Laptop Stand,Accessories,2,999,False
+1009,11-04-2023,7,Pune,Regular,103,Laptop Stand,Accessories,1,999,False
+1009,11-04-2023,7,Pune,Regular,103,Laptop Stand,Accessories,2,999,False
+1010,12-04-2023,8,Mumbai,Premium,105,Noise Cancelling Headphones,Electronics,1,3899,False
+1010,12-04-2023,8,Mumbai,Premium,105,Noise Cancelling Headphones,Electronics,1,3899,True
+1010,12-04-2023,8,Mumbai,Premium,105,Noise Cancelling Headphones,Electronics,1,3899,False
+1011,13-04-2023,9,Noida,Regular,109,Monitor 24 Inch,Electronics,1,8999,False
+1012,15-04-2023,10,Pune,Premium,102,Mechanical Keyboard,Electronics,1,2399,True
+1012,15-04-2023,10,Pune,Premium,102,Mechanical Keyboard,Electronics,1,2399,False
+1013,16-04-2023,2,Pune,Premium,110,Laptop Bag,Accessories,1,1299,False
+1013,16-04-2023,2,Pune,Premium,110,Laptop Bag,Accessories,1,1299,False
+1014,17-04-2023,3,Bengaluru,Regular,101,Wireless Mouse,Electronics,3,599,False
+1014,17-04-2023,3,Bengaluru,Regular,101,Wireless Mouse,Electronics,1,599,False
+1014,17-04-2023,3,Bengaluru,Regular,101,Wireless Mouse,Electronics,2,599,True
+1014,17-04-2023,3,Bengaluru,Regular,101,Wireless Mouse,Electronics,1,599,False
+1016,19-04-2023,5,Delhi,Premium,107,Office Desk,Furniture,1,6999,False
+1017,20-04-2023,1,Mumbai,Regular,105,Noise Cancelling Headphones,Electronics,1,3999,False
+1017,20-04-2023,1,Mumbai,Regular,105,Noise Cancelling Headphones,Electronics,1,3999,True
+1017,20-04-2023,1,Mumbai,Regular,105,Noise Cancelling Headphones,Electronics,1,3999,False
+1018,21-04-2023,6,Chennai,Regular,103,Laptop Stand,Accessories,2,999,False
+1018,21-04-2023,6,Chennai,Regular,103,Laptop Stand,Accessories,1,999,False
+1018,21-04-2023,6,Chennai,Regular,103,Laptop Stand,Accessories,2,999,False
+1019,22-04-2023,7,Pune,Regular,101,Wireless Mouse,Electronics,3,599,False
+1019,22-04-2023,7,Pune,Regular,101,Wireless Mouse,Electronics,1,599,False
+1019,22-04-2023,7,Pune,Regular,101,Wireless Mouse,Electronics,2,599,True
+1019,22-04-2023,7,Pune,Regular,101,Wireless Mouse,Electronics,1,599,False
+1020,23-04-2023,8,Mumbai,Premium,110,Laptop Bag,Accessories,1,1299,False
+1020,23-04-2023,8,Mumbai,Premium,110,Laptop Bag,Accessories,1,1299,False

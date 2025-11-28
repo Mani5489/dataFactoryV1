@@ -1,0 +1,19 @@
+order_id,order_date,customer_id,product_id,quantity,unit_price,product_name,category,unit_price,cost_price,active_flag,discount_flag
+1001,01-04-2023,1,101,1,599,Wireless Mouse,Electronics,599,350,1,False
+1002,02-04-2023,2,102,1,2499,Mechanical Keyboard,Electronics,2499,1600,1,False
+1003,02-04-2023,2,103,2,999,Laptop Stand,Accessories,999,600,1,False
+1004,03-04-2023,3,105,1,3999,Noise Cancelling Headphones,Electronics,3999,2600,1,False
+1005,05-04-2023,4,101,2,579,Wireless Mouse,Electronics,599,350,1,True
+1006,06-04-2023,5,106,1,8999,Gaming Chair,Furniture,8999,6000,1,False
+1007,07-04-2023,1,104,1,1499,USB-C Hub,Accessories,1499,900,1,False
+1009,11-04-2023,7,103,1,999,Laptop Stand,Accessories,999,600,1,False
+1010,12-04-2023,8,105,1,3899,Noise Cancelling Headphones,Electronics,3999,2600,1,True
+1011,13-04-2023,9,109,1,8999,Monitor 24 Inch,Electronics,8999,6200,1,False
+1012,15-04-2023,10,102,1,2399,Mechanical Keyboard,Electronics,2499,1600,1,True
+1013,16-04-2023,2,110,1,1299,Laptop Bag,Accessories,1299,700,1,False
+1014,17-04-2023,3,101,1,599,Wireless Mouse,Electronics,599,350,1,False
+1016,19-04-2023,5,107,1,6999,Office Desk,Furniture,6999,4500,1,False
+1017,20-04-2023,1,105,1,3999,Noise Cancelling Headphones,Electronics,3999,2600,1,False
+1018,21-04-2023,6,103,2,999,Laptop Stand,Accessories,999,600,1,False
+1019,22-04-2023,7,101,3,599,Wireless Mouse,Electronics,599,350,1,False
+1020,23-04-2023,8,110,1,1299,Laptop Bag,Accessories,1299,700,1,False
